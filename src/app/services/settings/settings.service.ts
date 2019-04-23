@@ -1,9 +1,7 @@
-import {Inject, Injectable} from '@angular/core';
-import {DOCUMENT} from '@angular/platform-browser';
+import { Injectable, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/platform-browser';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class SettingsService {
   ajustes: Ajustes = {
     themeUrl: 'assets/css/colors/default.css',
